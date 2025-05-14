@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wle</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: url('background-image.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .overlay {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+        }
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            background-image: url('profile-picture-placeholder.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 20px;
+            background-color:pink;
+            color: #333;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="profile-picture">
+          <img src="pocoyo.jpg" alt="" class="profile-picture"></div>
+        <a href="index2.html" class="button">ini</a>
+    </div>
+</body>
+</html>
